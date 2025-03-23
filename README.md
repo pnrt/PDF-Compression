@@ -1,9 +1,9 @@
-# **PDF Compression with Ghostscript 🗜️📄**  
+# **PDF Compression with Ghostscript & Python🗜️📄**  
 [![Ghostscript](https://img.shields.io/badge/Ghostscript-v10.0-blue?logo=ghost)](https://ghostscript.com/releases/)  
 [![Python](https://img.shields.io/badge/Python-3.7+-yellow?logo=python)](https://www.python.org/)  
 [![License](https://img.shields.io/github/license/pnrt/PDF-compression)](LICENSE)  
 
-A **lightweight and efficient** way to **compress PDFs** using **Ghostscript (`gs`)** while maintaining good image quality.  
+A **lightweight and efficient** way to **compress PDFs** using **Ghostscript (`gs`) and Python.** Easily compress PDFs without losing quality using either the command line or a simple GUI.
 
 ---
 
@@ -22,7 +22,11 @@ brew install ghostscript
 ```sh
 sudo apt install ghostscript
 ```
-
+### 2️⃣ Install Python Dependencies
+```sh
+pip install tkinter
+```
+`tkinter` is built into Python, but this ensures it's available.
 ---
 
 ## **🚀 Usage**  
@@ -48,7 +52,22 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dB
 
 ---
 
-## **📝 Python Script**  
+## 📝 Python GUI for Easy PDF Compression
+If you prefer a graphical interface, we have a simple Python Tkinter-based GUI for non-technical users.
+
+📌 Run the Python GUI
+```sh
+python pdf_compressor_gui.py
+```
+🔹 Features
+- ✔ Select PDF file easily
+- ✔ Choose compression level (`screen`, `ebook`, `printer`, `prepress`)
+- ✔ One-click compression
+- ✔ User-friendly interface
+
+---
+
+## **📝 Python SGUI Code**  
 
 If you want to automate compression using **Python**, you can use this script:
 
@@ -139,11 +158,11 @@ root.mainloop()
 
 ---
 
-## **💡 Why Use Ghostscript?**  
-✔ **Free & Open Source**  
-✔ **High Compression Efficiency**  
-✔ **Retains PDF Structure**  
+## **💡 Why Use This Tool?**  
+✔ **FCommand Line & GUI Available**  
+✔ **No Quality Loss with Smart Compression**  
 ✔ **Works on Windows, macOS, & Linux**  
+✔ **Easy for Both Developers & Non-Tech Users**  
 
 ---
 
