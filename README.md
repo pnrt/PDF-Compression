@@ -139,15 +139,6 @@ root.mainloop()
 
 ---
 
-## **📸 Screenshots**
-#### ✅ **Before Compression**  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/PDF_icon.svg/800px-PDF_icon.svg.png" width="150">
-
-#### 🔻 **After Compression**  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Adobe_Acrobat_DC_logo_2020.svg/1024px-Adobe_Acrobat_DC_logo_2020.svg.png" width="150">
-
----
-
 ## **💡 Why Use Ghostscript?**  
 ✔ **Free & Open Source**  
 ✔ **High Compression Efficiency**  
